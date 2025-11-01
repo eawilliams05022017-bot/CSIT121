@@ -1,5 +1,5 @@
 body {
- background-image: url("image/beautiful-sunshine.jpg"); /* 👈 path to your dog image */
+ background-image: url("/image/beautiful-sunshine.jpg"); /* 👈 path to your dog image */
 
             /* Make it cover the whole page */
             background-size: cover;
