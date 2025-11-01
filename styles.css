@@ -3,7 +3,7 @@ body {
     background-size: cover;          /* Make it cover the whole page */
     background-attachment: fixed;    /* Keep it fixed while scrolling */
     background-position: center;     /* Center it nicely */
-    color: white;                    /* Optional: text color */
+    color: green;                    /* Optional: text color */
     text-shadow: 1px 1px 2px black;  /* Optional: text shadow for readability */
 }
 
