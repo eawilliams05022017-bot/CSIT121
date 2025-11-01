@@ -1,17 +1,13 @@
 body {
- background-image: url("/image/beautiful-sunshine.jpg"); /* 👈 path to your dog image */
-
-            /* Make it cover the whole page */
-            background-size: cover;
-
-            /* Keep it fixed while scrolling */
-            background-attachment: fixed;
-
-            /* Center it nicely */
-            background-position: center;
-
-            /* Optional: add a slight overlay for readability */
-            color: white;
-            text-shadow: 1px 1px 2px black;
+    background-image: url("../image/beautiful-sunshine.jpg"); /* Correct path from CSS file */
+    background-size: cover;          /* Make the image cover the entire page */
+    background-repeat: no-repeat;    /* Don’t repeat the image */
+    background-position: center;     /* Center the image */
+    background-attachment: fixed;    /* Keeps image fixed while scrolling */
+    margin: 0;                       /* Remove default browser margin */
+    padding: 0;                      /* Remove default browser padding */
+    font-family: Arial, sans-serif;  /* Clean font for the page */
+    color: white;                    /* White text by default */
+    text-shadow: 1px 1px 2px black;  /* Slight shadow for readability */
 }
 
