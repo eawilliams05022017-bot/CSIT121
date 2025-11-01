@@ -1,9 +1,17 @@
 body {
-    background-image: url("image/beautiful-sunshine.jpg"); /* path to your image */
-    background-size: cover;          /* Make it cover the whole page */
-    background-attachment: fixed;    /* Keep it fixed while scrolling */
-    background-position: center;     /* Center it nicely */
-    color: green;                    /* Optional: text color */
-    text-shadow: 1px 1px 2px black;  /* Optional: text shadow for readability */
+ background-image: url("image/beautiful-sunshine.jpg"); /* 👈 path to your dog image */
+
+            /* Make it cover the whole page */
+            background-size: cover;
+
+            /* Keep it fixed while scrolling */
+            background-attachment: fixed;
+
+            /* Center it nicely */
+            background-position: center;
+
+            /* Optional: add a slight overlay for readability */
+            color: white;
+            text-shadow: 1px 1px 2px black;
 }
 
