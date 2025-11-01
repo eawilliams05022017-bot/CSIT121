@@ -1,5 +1,5 @@
 body {
-    background-image: url("image/beautiful-sunshine.jpg"); /* Correct path from CSS file */
+    background-image: url("/image/beautiful-sunshine.jpg"); /* Correct path from CSS file */
     background-size: cover;          /* Make the image cover the entire page */
     background-repeat: no-repeat;    /* Don’t repeat the image */
     background-position: center;     /* Center the image */
