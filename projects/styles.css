@@ -1,0 +1,123 @@
+/* Center header text */
+header h1 {
+    text-align: center;
+    margin-bottom: 1rem;
+    color: white;
+}
+
+header h2 {
+    text-align: center;
+    margin-bottom: 1rem;
+    color:white;                    
+    text-shadow: 1px 1px 2px black;
+}
+
+body
+{ background-image: url("images/PixelForge-transparent.png");
+    background-size: cover;          
+    background-repeat: no-repeat;    
+    background-position: center;     
+    background-attachment: fixed;
+    background-color: #070f17;
+}
+
+image
+{
+  width: "460" ;
+  height: "345";
+}
+/* Remove default list styling */
+.nav-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    
+    /* Use flexbox to align horizontally */
+    display: flex;
+    justify-content: center; /* centers the links horizontally */
+    gap: 1rem;               /* space between links */
+    margin-bottom: 7rem;
+}
+
+/* Style individual links */
+.nav-links li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    transition: background 0.2s, color 0.2s;
+    border-bottom: 7px solid #4c8bf5;
+    padding-bottom: 0.5rem; 
+}
+
+/* Highlight current page */
+.nav-links li a.current {
+    background-color: #4c8bf5;
+    color: white;
+}
+
+/* Hover effect */
+.nav-links li a:hover {
+    background-color: #333;
+    color: white;
+}
+
+/* Mobile responsiveness */
+@media screen and (max-width: 600px) {
+    .nav-links {
+        flex-direction: column;   /* stack links vertically on small screens */
+        gap: 0.5rem;
+    }
+}
+
+p
+{
+  font-family: Arial, sans-serif;  
+    color:white;                    
+    text-shadow: 1px 1px 2px black;
+    font-size: 150%;  
+    margin-bottom: 3rem;
+}
+li
+{
+    font-family: Arial, sans-serif;  
+    color: white;                    
+    text-shadow: 1px 1px 2px black;
+    font-size: 150%;  
+    margin-bottom: 3rem;
+}
+/* Center tables */
+table {
+    width: 80%;                /* narrower than full page */
+    margin: 2rem auto;         /* top/bottom margin and centered horizontally */
+    border-collapse: collapse;
+    border: 3px solid #4c8bf5;
+    border-radius: 8px;
+    overflow: hidden;
+    color: white;
+}
+
+/* Table headers and cells (keep your previous styles) */
+table th, .game-table td {
+    padding: 0.75rem;
+    border-bottom: 1px solid #4c8bf5;
+}
+
+/* Alternate row colors */
+table tbody tr:nth-child(even) { background-color: #111; }
+table tbody tr:nth-child(odd) { background-color: #1a1a27; }
+
+/* Hover effect */
+table tbody tr:hover {
+    background-color: #4c8bf5;
+    color: white;
+    transition: 0.2s;
+}
+
+table td {
+    padding: 0.75rem;
+    border-bottom: 1px solid #4c8bf5;   /* horizontal line */
+    border-right: 2px solid #4c8bf5;    /* vertical line */
+}
+
